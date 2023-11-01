@@ -1,9 +1,10 @@
 import React from "react";
 import Img from "../../../components/smallComp/image/Img";
+import PortfolioImg from "../../../public/img/my-portfolio-img.jpg"
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
+    ["React.js", "Next.js", "JavaScript (ES6+)", "Tailwind CSS", "three.js"],
     ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
   ];
   return (
@@ -29,20 +30,19 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
+                Hello! My name is Mohamad, and I am a passionate software development, Full Stack Web Developer and DevOps Solution, dedicated to
+                creating impactful codes that thrive on the internet. My journey in computer science began in 2016. Little did I know that programming skills
                 would become essential in pursuing this interest, marking the start of my programming journey.
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
+                Since pursuing my Bachelor degree, my career has taken me through diverse industries, allowing me to
                 refine my expertise in desktop and web development. In the realm of{" "}
                 <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
+                advancements. With experience working alongside esteemed companies like{" "}
+                <span className="text-AAsecondary">******</span>, where I played a key role in releasing v2 of{" "}
+                <span className="text-AAsecondary">***********</span> , my passion for web3 and continuous
                 learning drives me to make a positive impact and advance technology.
               </span>
             </div>
@@ -102,7 +102,7 @@ export default function AboutMe(props) {
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={PortfolioImg}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
@@ -113,7 +113,7 @@ export default function AboutMe(props) {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={PortfolioImg}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
